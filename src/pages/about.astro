@@ -1,0 +1,147 @@
+---
+
+import Layout from '../layouts/Layout.astro';
+import Card from '../components/Card.astro';
+
+---
+
+
+
+<Layout title="Main - paxzdev.xyz">
+
+
+	<nav class="bg-gradient-to-r from-neutral-900 to-neutral-800 text-white py-2">
+		<div class="max-w-6xl mx-auto px-4 flex items-center justify-between">
+			<div class="flex items-center">
+				<span class="font-semibold text-xl"><span class="bg-gradient-to-r from-blue-600 via-blue-500 to-blue-400 inline-block text-transparent bg-clip-text">Paxzdev</span>.xyz</span>
+			</div>
+	
+			<!-- Hamburger menu for small screens -->
+			<div class="lg:hidden">
+				<button id="nav-toggle" class="text-white duration-150 hover:text-blue-500 focus:outline-none">
+					<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+						<path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5M12 17.25h8.25" />
+					</svg>
+				</button>
+			</div>
+	
+			<ul class="hidden lg:flex justify-center space-x-6 text-gray-300">
+				<li><a href="/" class="font-semibold duration-200 hover:text-blue-500">Home</a></li>
+				<li><a href="/about" class="font-semibold duration-200 hover:text-blue-500">About</a></li>
+				<li><a href="/projects" class="font-semibold duration-200 hover:text-blue-500">Projects</a></li>
+				<li><a href="/contact" class="font-semibold duration-200 hover:text-blue-500">Contact</a></li>
+			</ul>
+	
+			<a class="rounded bg-gradient-to-r from-blue-600 via-blue-500 to-blue-400 inline-block px-6 py-3 text-sm font-medium text-white shadow-sm shadow-blue-500/50 duration-150 hover:shadow-lg hover:shadow-blue-500/50 flex items-center justify-center gap-2" href="/projects">
+				Projects
+			</a>
+		</div>
+	</nav>
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<main id="Main" class="flex items-center justify-center h-screen bg-gradient-to-t from-slate-900 to-blue-950">
+	  <div class="text-center">
+		<h1 class="text-white font-semibold text-3xl m-0.5">
+		 About me
+		</h1>
+        <p class="text-gray-200 text-md" >Im a developer from sweden with 5+ years of experience in coding. <br>I specialize in web-development and have worked with a lot of reputable companies in the past, for example Aureus.wtf.</p>
+
+
+
+	  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+	  
+	</main>
+
+	<footer class="bg-gray-100">
+		<div class="relative mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8 lg:pt-24">
+		  <div class="absolute end-4 top-4 sm:end-6 sm:top-6 lg:end-8 lg:top-8">
+			<a
+			  class="inline-block rounded-full bg-gradient-to-r from-blue-600 via-blue-500 to-blue-400 p-2 text-white shadow transition hover:bg-teal-500 sm:p-3 lg:p-4"
+			  href="#Main"
+			>
+			  <span class="sr-only">Back to top</span>
+	  
+			  <svg
+				xmlns="http://www.w3.org/2000/svg"
+				class="h-5 w-5"
+				viewBox="0 0 20 20"
+				fill="currentColor"
+			  >
+				<path
+				  fill-rule="evenodd"
+				  d="M14.707 12.707a1 1 0 01-1.414 0L10 9.414l-3.293 3.293a1 1 0 01-1.414-1.414l4-4a1 1 0 011.414 0l4 4a1 1 0 010 1.414z"
+				  clip-rule="evenodd"
+				/>
+			  </svg>
+			</a>
+		  </div>
+	  
+		  <div class="lg:flex lg:items-end lg:justify-between">
+			<div>
+			  <div class="flex justify-center:justify-start">
+				<h1 class="font-bold bg-gradient-to-r from-blue-600 via-blue-500 to-blue-400 inline-block text-transparent bg-clip-text ">paxzdev.xyz</h1>
+			  </div>
+	  
+			  <p class="mx-auto mt-6 max-w-md text-center leading-relaxed text-gray-500 lg:text-left">
+				As of 12/23/2023 I am busy with another project, but do not hesitate to contact me for future job inquiries.
+			  </p>
+			</div>
+	  
+			<ul
+			  class="mt-12 flex flex-wrap justify-center gap-6 md:gap-8 lg:mt-0 lg:justify-end lg:gap-12"
+			>
+			  <li>
+				<a class="text-gray-700 transition hover:text-gray-700/75" href="/About"> About </a>
+			  </li>
+	  
+			  <li>
+				<a class="text-gray-700 transition hover:text-gray-700/75" href="/Projects"> Projects </a>
+			  </li>
+	  
+			  <li>
+				<a class="text-gray-700 transition hover:text-gray-700/75" href="/contact"> Contact </a>
+			  </li>
+	  
+			  <li>
+				<a class="text-gray-700 transition hover:text-gray-700/75" href="/Features"> Why choose me </a>
+			  </li>
+			</ul>
+		  </div>
+	  
+
+		</div>
+	  </footer>
+  </Layout>
+  
