@@ -9,7 +9,7 @@ import Card from '../components/Card.astro';
 
 <Layout title="Main - paxzdev.xyz">
 
-	<nav class="bg-gradient-to-r from-neutral-900 to-neutral-800 text-white py-2">
+	<nav class="bg-gradient-to-r from-neutral-900 to-neutral-800 text-white py-2" id="Main">
 		<div class="max-w-6xl mx-auto px-4 flex items-center justify-between">
 			<div class="flex items-center">
 				<span class="font-semibold text-xl"><span class="bg-gradient-to-r from-blue-600 via-blue-500 to-blue-400 inline-block font-bold text-transparent bg-clip-text">paxzdev</span>.xyz</span>
@@ -59,31 +59,43 @@ import Card from '../components/Card.astro';
 
 
 
-	<main id="Main" class="flex items-center justify-center h-screen bg-gradient-to-t from-slate-900 to-blue-950">
-	  <div class="text-center">
-		<h1 class="text-white font-semibold text-3xl m-0.5">
-		 About me
-		</h1>
-        <p class="text-gray-200 text-md" >Im a developer from sweden with 5+ years of experience in coding. <br>I specialize in web-development and have worked with a lot of reputable companies in the past, for example Aureus.wtf.</p>
-
-
-
-	  </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-	  
-	</main>
+	
+	<main class="flex items-center justify-center h-screen bg-gradient-to-t from-slate-900 to-blue-950" id="Main">
+		<div class="text-center">
+		  <h1 class="text-white text-center font-semibold text-3xl m-10">
+			About Me
+		  </h1>
+	
+		  <div class="grid grid-cols-2 gap-4 max-w-7xl mx-auto">
+			<div class="bg-blue-700 bg-opacity-30 border-2 border-blue-700 shadow-md rounded-lg p-6">
+			  <h2 class="text-2xl font-bold bg-gradient-to-r from-blue-600 via-blue-500 to-blue-400 inline-block text-transparent bg-clip-text mb-4">Background</h2>
+			  <p class="text-gray-100">
+				I am a self-taught developer with a passion for creating beautiful and functional websites. I have been coding for over 3 years and have experience with a variety of technologies, including HTML, CSS, JavaScript, and various frameworks like Tailwind CSS, Astro.JS and Next.JS.
+			  </p>
+			</div>
+			<div class="bg-white shadow-md rounded-lg p-6">
+			  <h2 class="text-2xl font-bold bg-gradient-to-r from-blue-600 via-blue-500 to-blue-400 inline-block text-transparent bg-clip-text mb-4">
+				Skills</h2>
+			  <p class="text-gray-600">
+				I am proficient in HTML, CSS, and JavaScript, and have experience with various frameworks and libraries such as Tailwind CSS, React, and Next.js. I am also familiar with version control systems like Git and have some experience working with databases and server-side technologies.
+			  </p>
+			</div>
+			<div class="bg-blue-700 bg-opacity-30 border-2 border-blue-700 shadow-md rounded-lg p-6">
+			  <h2 class="text-2xl font-bold bg-gradient-to-r from-blue-600 via-blue-500 to-blue-400 inline-block text-transparent bg-clip-text mb-4">Interests</h2>
+			  <p class="text-gray-100">
+				When I'm not coding, I enjoy playing various sports, hanging out with friends, and more. I am also passionate about open source software and regularly contribute to various projects on GitHub.
+			  </p>
+			</div>
+			<div class="bg-white shadow-md rounded-lg p-6">
+			  <h2 class="text-2xl font-bold bg-gradient-to-r from-blue-600 via-blue-500 to-blue-400 inline-block text-transparent bg-clip-text mb-4">
+				Contact</h2>
+			  <p class="text-gray-600">
+				If you would like to get in touch, you can reach me on Discord at <a href="discord:paxzdev" class="hover:underline font-bold">@paxzdev</a> or by email at <a href="mailto:paxzgotbanned123@gmail.com" class="hover:underline font-bold">paxzgotbanned123@gmail.com</a>.
+			  </p>
+			</div>
+		  </div>
+		</div>
+	  </main>
 
 	<footer class="bg-gray-100">
 		<div class="relative mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8 lg:pt-24">
